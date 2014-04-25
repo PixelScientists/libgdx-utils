@@ -1,0 +1,159 @@
+
+icons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+batterybase
+  rotate: false
+  xy: 1, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+bluecrystal
+  rotate: false
+  xy: 1, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+browncrystal
+  rotate: false
+  xy: 51, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+orangecrystal
+  rotate: false
+  xy: 51, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+cannonbase
+  rotate: false
+  xy: 1, 101
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+cyancrystal
+  rotate: false
+  xy: 51, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+droidbase
+  rotate: false
+  xy: 101, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+dropperbase
+  rotate: false
+  xy: 1, 51
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+gravityt1
+  rotate: false
+  xy: 51, 101
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+greencrystal
+  rotate: false
+  xy: 101, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+hullbase
+  rotate: false
+  xy: 151, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+iridium
+  rotate: false
+  xy: 1, 1
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+launcherbase
+  rotate: false
+  xy: 51, 51
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+magentacrystal
+  rotate: false
+  xy: 101, 101
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+nothing
+  rotate: false
+  xy: 151, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+palladium
+  rotate: false
+  xy: 201, 201
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+raybase
+  rotate: false
+  xy: 51, 1
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+redcrystal
+  rotate: false
+  xy: 101, 51
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+rhodium
+  rotate: false
+  xy: 151, 101
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+titanium
+  rotate: false
+  xy: 201, 151
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+violetcrystal
+  rotate: false
+  xy: 101, 1
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
+yellowcrystal
+  rotate: false
+  xy: 151, 51
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 48
