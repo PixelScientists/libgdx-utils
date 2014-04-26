@@ -26,35 +26,9 @@ package com.pixelscientists.gdx.inventory;
  */
 public enum Item {
 
-	// ###########
-	// T1 Crystals
-	// ###########
-
-	CRYSTAL_RED("redcrystal"), CRYSTAL_BLUE("bluecrystal"), CRYSTAL_GREEN("greencrystal"),
-
-	// ###########
-	// T2 Crystals
-	// ###########
-
-	CRYSTAL_YELLOW("yellowcrystal"), CRYSTAL_MAGENTA("magentacrystal"), CRYSTAL_CYAN("cyancrystal"),
-
-	// ###########
-	// T3 Crystals
-	// ###########
-
-	CRYSTAL_ORANGE("orangecrystal"), CRYSTAL_VIOLET("violetcrystal"), CRYSTAL_BROWN("browncrystal"),
-
-	// ######
-	// Metals
-	// ######
-
-	TITANIUM("titanium"), PALLADIUM("palladium"), IRIDIUM("iridium"), RHODIUM("rhodium"),
-
-	// ##########
-	// Base parts
-	// ##########
-
-	HULL("hullbase"), CANNON("cannonbase"), RAY("raybase"), LAUNCHER("launcherbase"), DROID("droidbase"), MINE("dropperbase"), BATTERY("batterybase");
+	CRYSTAL_RED("redcrystal"), CRYSTAL_BLUE("bluecrystal"), CRYSTAL_GREEN("greencrystal"), CRYSTAL_YELLOW("yellowcrystal"), CRYSTAL_MAGENTA("magentacrystal"), CRYSTAL_CYAN(
+			"cyancrystal"), CRYSTAL_ORANGE("orangecrystal"), CRYSTAL_VIOLET("violetcrystal"), TITANIUM("titanium"), PALLADIUM("palladium"), IRIDIUM("iridium"), RHODIUM("rhodium"), HULL(
+			"hullbase"), CANNON("cannonbase"), RAY("raybase"), LAUNCHER("launcherbase"), DROID("droidbase"), MINE("dropperbase"), BATTERY("batterybase");
 
 	private String textureRegion;
 

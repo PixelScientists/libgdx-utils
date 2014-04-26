@@ -44,7 +44,7 @@ import com.pixelscientists.gdx.inventory.InventoryScreen;
  */
 public class SplashScreen implements Screen {
 
-	private float minimumShowTime = 5.0f;
+	private float minimumShowTime = 3.0f;
 
 	private OrthographicCamera camera;
 
@@ -94,6 +94,7 @@ public class SplashScreen implements Screen {
 
 	@Override
 	public void pause() {
+		// NOOP
 	}
 
 	@Override
