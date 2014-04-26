@@ -1,13 +1,26 @@
-/* ######################################
- * Copyright 2014 (c) Pixel Scientists
- * All rights reserved.
- * Unauthorized copying of this file, via
- * any medium is strictly prohibited.
- * Proprietary and confidential.
- * ###################################### */
+/* Copyright (c) 2014 PixelScientists
+ * 
+ * The MIT License (MIT)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
 package com.pixelscientists.gdx.inventory;
 
-import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.Array;
 
 /**
@@ -24,9 +37,6 @@ public class Slot {
 	public Slot(Item item, int amount) {
 		this.item = item;
 		this.amount = amount;
-
-		this.item = Item.values()[MathUtils.random(0, Item.values().length - 1)];
-		this.amount = 1;
 	}
 
 	public boolean isEmpty() {

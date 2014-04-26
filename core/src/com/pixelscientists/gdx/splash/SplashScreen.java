@@ -1,10 +1,24 @@
-/* ######################################
- * Copyright 2014 (c) Pixel Scientists
- * All rights reserved.
- * Unauthorized copying of this file, via
- * any medium is strictly prohibited.
- * Proprietary and confidential.
- * ###################################### */
+/* Copyright (c) 2014 PixelScientists
+ * 
+ * The MIT License (MIT)
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
 package com.pixelscientists.gdx.splash;
 
 import com.badlogic.gdx.Gdx;
@@ -30,7 +44,7 @@ import com.pixelscientists.gdx.inventory.InventoryScreen;
  */
 public class SplashScreen implements Screen {
 
-	private float minimumShowTime = 1.0f;
+	private float minimumShowTime = 5.0f;
 
 	private OrthographicCamera camera;
 
@@ -40,27 +54,15 @@ public class SplashScreen implements Screen {
 
 	@Override
 	public void show() {
-		// assets needed for this screen
-		// Asset splashAsset = new Asset(AssetType.TEXTURE,
-		// "textures/splash.png");
 		LibgdxUtils.assets.load("textures/splash.png", Texture.class);
 		LibgdxUtils.assets.finishLoading();
 		splash = LibgdxUtils.assets.get("textures/splash.png", Texture.class);
 
 		LibgdxUtils.assets.load("skins/uiskin.json", Skin.class);
 		LibgdxUtils.assets.load("icons/icons.atlas", TextureAtlas.class);
-		// LibgdxUtils.assets.load(splashAsset.name, splashAsset.type.clazz);
-		// LibgdxUtils.assets.finishLoading();
 
 		camera = new OrthographicCamera();
 		viewport = new FitViewport(splash.getWidth(), splash.getHeight(), camera);
-		// viewport.update(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(),
-		// true);
-
-		// initiate loading of common resources
-		// Set<Asset> neededAssets = new HashSet<Asset>();
-		// neededAssets.add(splashAsset);
-		// AssetOrganizer.organizeAssets(neededAssets, true);
 	}
 
 	@Override
