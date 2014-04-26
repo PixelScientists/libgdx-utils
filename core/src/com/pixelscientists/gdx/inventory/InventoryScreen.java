@@ -21,22 +21,17 @@ import com.pixelscientists.gdx.LibgdxUtils;
  */
 public class InventoryScreen implements Screen {
 
-	private Skin skin;
-
-	InventoryActor inventoryActor;
+	private InventoryActor inventoryActor;
 
 	public static Stage stage;
 
 	@Override
 	public void show() {
-		skin = LibgdxUtils.assets.get("skins/uiskin.json", Skin.class);
-
 		stage = new Stage();
-
 		Gdx.input.setInputProcessor(stage);
 
+		Skin skin = LibgdxUtils.assets.get("skins/uiskin.json", Skin.class);
 		DragAndDrop dragAndDrop = new DragAndDrop();
-
 		inventoryActor = new InventoryActor(new Inventory(), dragAndDrop, skin);
 		stage.addActor(inventoryActor);
 	}
