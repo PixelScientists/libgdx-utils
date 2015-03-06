@@ -45,6 +45,7 @@ public class SlotActor extends ImageButton implements SlotListener {
 		slot.addListener(this);
 
 		SlotTooltip tooltip = new SlotTooltip(slot, skin);
+		tooltip.setTouchable(Touchable.disabled); // allows for mouse to hit tooltips in the top-right corner of the screen without flashing
 		InventoryScreen.stage.addActor(tooltip);
 		addListener(new TooltipListener(tooltip, true));
 	}
